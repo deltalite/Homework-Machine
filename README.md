@@ -1,19 +1,18 @@
-# Wiki-bot
+# Homework Machine
 
 ## Objective
-The objective of this project is to train a chatbot that can (more or less) answer questions
-surrounding wikipedia pages found in the training data. 
+The objective of this project is to train a model to answer questions. I plan to start of with learning how to do properly interact with a pre-made model (albert) and tune it with the Stanford Question Answering Dataset (SQuAD). 
+
+Steps
+0. Set up pre-trained ALBERT modela and see how it works. More models can be added later.
+1. Ingest `context` and `question` via string (Jupyter notebook)
+2. Create logic to look up content on Wikipedia via `wikipedia` package based on question
+3. Create web application implementing this same functionality
+4. Integrate image uploads and OCRs for easier provision of `context` 
+
 My personal objectives for this project are:
-* To learn about NLP in Python (packages like nltk and spaCy)
-* Learn more about NLP as a whole 
-* Create a bot with decent answers based on questions asked
-
-## Next steps
-A simple bot contained within a script is hard to interact with, so some considerations would be:
-* Create an app through which you can talk to the bot
-* Use Twilio or similar service to create SMS communicating bot
-* Create web scraper/use Wiki API to get additional training data, and have a bot that can expand its knowledge
-
-### Data
-The data used to train my chatbot comes from the following URL:
-http://www.cs.cmu.edu/~ark/QA-data/
+* Dabble in transfer learning (step 0)
+* Learn techniques associated with search (step 1)
+* Learn a new framework for full stack web development
+* Look into ensemble learning 
+* Deal with I/O of image files and OCRs
