@@ -1,0 +1,28 @@
+{
+  "name": "homework-machine",
+  "version": "1.0.0",
+  "description": "An app that will do your homework! Whether it does a good job is another question :^)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deltalite/Homework-Machine.git"
+  },
+  "keywords": [
+    "nlp",
+    "node",
+    "python",
+    "transformers"
+  ],
+  "author": "Dexter van Leeuwen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deltalite/Homework-Machine/issues"
+  },
+  "homepage": "https://github.com/deltalite/Homework-Machine#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
